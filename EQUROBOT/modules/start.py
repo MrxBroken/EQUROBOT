@@ -14,7 +14,7 @@ START_TEXT = """
 ʟᴇᴛ'ꜱ ᴄʜᴀᴛ ᴀɴᴅ ᴇxᴘʟᴏʀᴇ 
 ᴛʜᴇ ᴅᴇᴘᴛʜꜱ ᴏꜰ ᴄᴏɴᴠᴇʀꜱᴀᴛɪᴏɴ ᴛᴏɢᴇᴛʜᴇʀ! 
 ꜰᴇᴇʟ ꜰʀᴇᴇ ᴛᴏ ᴀꜱᴋ ᴍᴇ ᴀɴʏᴛʜɪɴɢ ᴏʀ ꜱʜᴀʀᴇ ʏᴏᴜʀ ᴛʜᴏᴜɢʜᴛꜱ. 
-ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʟɪꜱᴛᴇɴ ᴀɴᴅ ᴇɴɢᴀɢᴇ ɪɴ ᴍᴇᴀɴɪɴɢꜰᴜʟ ᴅɪꜱᴄᴜꜱꜱɪᴏɴꜱ ᴡɪᴛʜ ʏᴏᴜ ‣ @BROKENXNETWORK.\n 𝐁𝐘 ➤𝗠𝗥 𝗫 𝗕𝗥𝗢𝗞𝗘𝗡"
+ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʟɪꜱᴛᴇɴ ᴀɴᴅ ᴇɴɢᴀɢᴇ ɪɴ ᴍᴇᴀɴɪɴɢꜰᴜʟ ᴅɪꜱᴄᴜꜱꜱɪᴏɴꜱ ᴡɪᴛʜ ʏᴏᴜ ‣ @BROKENXNETWORK\n 𝐁𝐘 [➤𝗠𝗥 𝗫 𝗕𝗥𝗢𝗞𝗘𝗡](https://t.me/mrbrokn)"
 """
 
 
@@ -34,7 +34,7 @@ async def start(client, message):
     reply_markup = InlineKeyboardMarkup(buttons)
 
     await message.reply_video(
-        video="https://telegra.ph/file/c0ac2973b5e24baf65226.mp4",
+        video="https://telegra.ph/file/5b24319e8c926b893d696.mp4",
         caption=START_TEXT,
         reply_markup=reply_markup
     )
