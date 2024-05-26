@@ -27,13 +27,13 @@ async def draw_image(client, message):
         user_id = message.from_user.id
     replied = message.reply_to_message
     if not config.DEEP_API:
-        return await message.reply_text("I can't upscale !")
+        return await message.reply_text("Something went wrong,I can't upscale !\n𝗠𝗔𝗗𝗘 𝗕𝗬 ➤𝗠𝗥 𝗫 𝗕𝗥𝗢𝗞𝗘𝗡")
     if replied:
         if replied.text:
             query = replied.text
     elif not replied:
         if len(message.text) < 2:
-            return await message.reply_text("Please give a text or reply to a text !")
+            return await message.reply_text("Please give a text or reply to a text !\n𝗠𝗔𝗗𝗘 𝗕𝗬 ➤𝗠𝗥 𝗫 𝗕𝗥𝗢𝗞𝗘𝗡")
         query = message.text.split(None, 1)[1]
     aux = await message.reply_text("Please Wait ...")
     image = f"cache/{user_id}_{chat_id}_{message.id}.png"  # Fix: Modified image path
