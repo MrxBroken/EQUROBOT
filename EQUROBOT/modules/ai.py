@@ -24,7 +24,7 @@ async def chat(app :app, message):
         await app.send_chat_action(message.chat.id, ChatAction.TYPING)
         if len(message.command) < 2:
             await message.reply_text(
-            "**ʜᴇʟʟᴏ sɪʀ**\n**ᴇxᴀᴍᴘʟᴇ:-**`broken,chatgpt,ai,ask How to set girlfriend ?`")
+            "**ʜᴇʟʟᴏ sɪʀ**\n**ᴇxᴀᴍᴘʟᴇ:-**`broken,chatgpt,ai,ask How to set girlfriend ?`\n𝗕𝗬 ➤𝗠𝗥 𝗫 𝗕𝗥𝗢𝗞𝗘𝗡")
         else:
             a = message.text.split(' ', 1)[1]
             MODEL = "gpt-3.5-turbo"
@@ -46,7 +46,7 @@ async def chat(app :app, message):
         await app.send_chat_action(message.chat.id, ChatAction.TYPING)
         if len(message.command) < 2:
             await message.reply_text(
-            "**ʜᴇʟʟᴏ sɪʀ**\n**ᴇxᴀᴍᴘʟᴇ:-**`Siri How to set girlfriend ?`")
+            "**ʜᴇʟʟᴏ sɪʀ**\n**ᴇxᴀᴍᴘʟᴇ:-**`Siri How to set girlfriend ?`\n𝗕𝗬 ➤𝗠𝗥 𝗫 𝗕𝗥𝗢𝗞𝗘𝗡")
         else:
             a = message.text.split(' ', 1)[1]
             MODEL = "gpt-3.5-turbo"
@@ -69,7 +69,7 @@ async def chat(app :app, message):
         await app.send_chat_action(message.chat.id, ChatAction.TYPING)
         if len(message.command) < 2:
             await message.reply_text(
-            "**ʜᴇʟʟᴏ sɪʀ**\n**ᴇxᴀᴍᴘʟᴇ:-**`.assis How to set girlfriend ?`")
+            "**ʜᴇʟʟᴏ sɪʀ**\n**ᴇxᴀᴍᴘʟᴇ:-**`assist How to set girlfriend ?`\n𝗕𝗬 ➤𝗠𝗥 𝗫 𝗕𝗥𝗢𝗞𝗘𝗡")
         else:
             a = message.text.split(' ', 1)[1]
             MODEL = "gpt-3.5-turbo"
