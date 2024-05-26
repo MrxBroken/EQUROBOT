@@ -16,7 +16,7 @@ API_URL = "https://sugoi-api.vercel.app/search"
 
 # ----------------------------------------
 # ----------------------------------------
-@app.on_message(filters.command(["chatgpt","ai","ask"],  prefixes=["+", ".", "/", "-", "?", "$","#","&"]))
+@app.on_message(filters.command(["chatgpt","broken","ai","ask"],  prefixes=["+","",".", "/", "-", "?", "$","#","&"]))
 async def chat(app :app, message):
     
     try:
@@ -24,7 +24,7 @@ async def chat(app :app, message):
         await app.send_chat_action(message.chat.id, ChatAction.TYPING)
         if len(message.command) < 2:
             await message.reply_text(
-            "**ʜᴇʟʟᴏ sɪʀ**\n**ᴇxᴀᴍᴘʟᴇ:-**`.ask How to set girlfriend ?`")
+            "**ʜᴇʟʟᴏ sɪʀ**\n**ᴇxᴀᴍᴘʟᴇ:-**`broken,chatgpt,ai,ask How to set girlfriend ?`")
         else:
             a = message.text.split(' ', 1)[1]
             MODEL = "gpt-3.5-turbo"
@@ -46,7 +46,7 @@ async def chat(app :app, message):
         await app.send_chat_action(message.chat.id, ChatAction.TYPING)
         if len(message.command) < 2:
             await message.reply_text(
-            "**ʜᴇʟʟᴏ sɪʀ**\n**ᴇxᴀᴍᴘʟᴇ:-**`.ask How to set girlfriend ?`")
+            "**ʜᴇʟʟᴏ sɪʀ**\n**ᴇxᴀᴍᴘʟᴇ:-**`Siri How to set girlfriend ?`")
         else:
             a = message.text.split(' ', 1)[1]
             MODEL = "gpt-3.5-turbo"
@@ -61,7 +61,7 @@ async def chat(app :app, message):
 # --------------------------------------------------------------------------------
 # --------------------------------------------------------------------------------
 
-@app.on_message(filters.command(["assis"],  prefixes=["+", ".", "/", "-", "?", "$","#","&"]))
+@app.on_message(filters.command(["assist"],  prefixes=["+", ".", "/", "-", "?", "$","#","&"]))
 async def chat(app :app, message):
     
     try:
@@ -95,7 +95,7 @@ async def deepchat(app: app, message):
     try:
         await app.send_chat_action(message.chat.id, ChatAction.TYPING)
         if len(message.command) < 2:
-            await message.reply_text(f"Hello {name}\nHow can I assist you today?.")
+            await message.reply_text(f"Hello {name}\nHow can I assist you today?.\n𝗕𝗬 ➤𝗠𝗥 𝗫 𝗕𝗥𝗢𝗞𝗘𝗡")
         else:
             a = message.text.split(' ', 1)[1]
 
@@ -124,7 +124,7 @@ async def deepchat(app: app, message):
     try:
         await app.send_chat_action(message.chat.id, ChatAction.TYPING)
         if len(message.command) < 2:
-            await message.reply_text(f"Hello {name}\n How can I assist you today?.")
+            await message.reply_text(f"Hello {name}\n How can I assist you today?.\n𝗕𝗬 ➤𝗠𝗥 𝗫 𝗕𝗥𝗢𝗞𝗘𝗡")
         else:
             a = message.text.split(' ', 1)[1]
 
@@ -145,11 +145,11 @@ async def deepchat(app: app, message):
 
 # -----------------------------------------------------------------------------------
 
-@app.on_message(filters.command(["bing"],  prefixes=["+", ".", "/", "-", "?", "$", "#", "&"]))
+@app.on_message(filters.command(["bing"],  prefixes=["+", ".", "/", "","-", "?", "$", "#", "&"]))
 async def bing_search(app, message):
     try:
         if len(message.command) == 1:
-            await message.reply_text("Please provide a keyword to search.")
+            await message.reply_text("Please provide a keyword to search.\n𝗕𝗬 ➤𝗠𝗥 𝗫 𝗕𝗥𝗢𝗞𝗘𝗡")
             return
 
         keyword = " ".join(
