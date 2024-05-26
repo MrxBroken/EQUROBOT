@@ -1,7 +1,7 @@
 {
   "name": "github-heroku-bot",
   "description": "Telegram Bot using Pyrogram",
-  "repository": "https://github.com/DAXXTEAM/EQUROBOT",
+  "repository": "https://github.com/ASAD0111/EQUROBOT",
   "env": {
     "API_ID": {
       "description": "Your Telegram API ID",
