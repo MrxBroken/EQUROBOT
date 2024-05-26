@@ -7,9 +7,9 @@ from EQUROBOT import app
 
 
 START_TEXT = """
-ʜɪ ,
+ʜɪ , {first}
 
-ɪ ᴀᴍ , 
+ɪ ᴀᴍ , [‣ Aɪ Qᴜᴇʀʏ ⋆](http://t.me/EQURO_BOT) 
 ʏᴏᴜʀ ᴀɪ ᴄᴏᴍᴘᴀɴɪᴏɴ. 
 ʟᴇᴛ'ꜱ ᴄʜᴀᴛ ᴀɴᴅ ᴇxᴘʟᴏʀᴇ 
 ᴛʜᴇ ᴅᴇᴘᴛʜꜱ ᴏꜰ ᴄᴏɴᴠᴇʀꜱᴀᴛɪᴏɴ ᴛᴏɢᴇᴛʜᴇʀ! 
