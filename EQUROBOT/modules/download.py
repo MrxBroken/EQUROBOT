@@ -38,7 +38,7 @@ def download_song(_, message):
         channel_name = results[0]["channel"]
 
     except Exception as e:
-        m.edit("**⚠️ ɴᴏ ʀᴇsᴜʟᴛs ᴡᴇʀᴇ ғᴏᴜɴᴅ. ᴍᴀᴋᴇ sᴜʀᴇ ʏᴏᴜ ᴛʏᴘᴇᴅ ᴛʜᴇ ᴄᴏʀʀᴇᴄᴛ sᴏɴɢ ɴᴀᴍᴇ**")
+        m.edit("**⚠️ ɴᴏ ʀᴇsᴜʟᴛs ᴡᴇʀᴇ ғᴏᴜɴᴅ. ᴍᴀᴋᴇ sᴜʀᴇ ʏᴏᴜ ᴛʏᴘᴇᴅ ᴛʜᴇ ᴄᴏʀʀᴇᴄᴛ sᴏɴɢ ɴᴀᴍᴇ**\n𝗠𝗔𝗗𝗘 𝗕𝗬 ➤𝗠𝗥 𝗫 𝗕𝗥𝗢𝗞𝗘𝗡")
         print(str(e))
         return
     m.edit("**📥 ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ...**")
@@ -51,7 +51,7 @@ def download_song(_, message):
         for i in range(len(dur_arr) - 1, -1, -1):
             dur += int(float(dur_arr[i])) * secmul
             secmul *= 60
-        m.edit("**📤 ᴜᴘʟᴏᴀᴅɪɴɢ...**")
+        m.edit("**📤 ᴜᴘʟᴏᴀᴅɪɴɢ...**\n𝗠𝗔𝗗𝗘 𝗕𝗬 ➤𝗠𝗥 𝗫 𝗕𝗥𝗢𝗞𝗘𝗡")
 
         message.reply_audio(
             audio_file,
@@ -124,11 +124,11 @@ async def instagram_reel(client, message):
                 video_url = media_urls[0]['url']
                 await message.reply_video(f"{video_url}")
             else:
-                await message.reply("No video found in the response. may be accountbis private.")
+                await message.reply("No video found in the response. may be accountbis private.\n𝗠𝗔𝗗𝗘 𝗕𝗬 ➤𝗠𝗥 𝗫 𝗕𝗥𝗢𝗞𝗘𝗡")
         else:
             await message.reply("Request was not successful.")
     else:
-        await message.reply("Please provide a valid Instagram URL using the /reel command.")
+        await message.reply("Please provide a valid Instagram URL using the /reel command.\n𝗠𝗔𝗗𝗘 𝗕𝗬 ➤𝗠𝗥 𝗫 𝗕𝗥𝗢𝗞𝗘𝗡")
 
 
 
@@ -162,7 +162,7 @@ async def ytmusic(client, message: Message):
     user_name = message.from_user.first_name
     chutiya = "[" + user_name + "](tg://user?id=" + str(user_id) + ")"
 
-    pablo = await client.send_message(message.chat.id, f"sᴇᴀʀᴄʜɪɴɢ, ᴩʟᴇᴀsᴇ ᴡᴀɪᴛ...")
+    pablo = await client.send_message(message.chat.id, f"sᴇᴀʀᴄʜɪɴɢ, ᴩʟᴇᴀsᴇ ᴡᴀɪᴛ...\n𝗠𝗔𝗗𝗘 𝗕𝗬 ➤𝗠𝗥 𝗫 𝗕𝗥𝗢𝗞𝗘𝗡")
     if not urlissed:
         await pablo.edit(
             "😴 sᴏɴɢ ɴᴏᴛ ғᴏᴜɴᴅ ᴏɴ ʏᴏᴜᴛᴜʙᴇ.\n\n» ᴍᴀʏʙᴇ ᴛᴜɴᴇ ɢᴀʟᴛɪ ʟɪᴋʜᴀ ʜᴏ, ᴩᴀᴅʜᴀɪ - ʟɪᴋʜᴀɪ ᴛᴏʜ ᴋᴀʀᴛᴀ ɴᴀʜɪ ᴛᴜ !"
