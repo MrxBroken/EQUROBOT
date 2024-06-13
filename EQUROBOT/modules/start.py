@@ -7,14 +7,14 @@ from EQUROBOT import app
 
 
 START_TEXT = """
-ʜɪ , {first}
+ʜɪ , {fullname}
 
 ɪ ᴀᴍ , [☾𝗘𝗾𝘂𝗿𝗼𝗕𝗼𝘁☽](http://t.me/EQURO_BOT) 
 ʏᴏᴜʀ ᴀɪ ᴄᴏᴍᴘᴀɴɪᴏɴ. 
 ʟᴇᴛ'ꜱ ᴄʜᴀᴛ ᴀɴᴅ ᴇxᴘʟᴏʀᴇ 
 ᴛʜᴇ ᴅᴇᴘᴛʜꜱ ᴏꜰ ᴄᴏɴᴠᴇʀꜱᴀᴛɪᴏɴ ᴛᴏɢᴇᴛʜᴇʀ! 
 ꜰᴇᴇʟ ꜰʀᴇᴇ ᴛᴏ ᴀꜱᴋ ᴍᴇ ᴀɴʏᴛʜɪɴɢ ᴏʀ ꜱʜᴀʀᴇ ʏᴏᴜʀ ᴛʜᴏᴜɢʜᴛꜱ. 
-ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʟɪꜱᴛᴇɴ ᴀɴᴅ ᴇɴɢᴀɢᴇ ɪɴ ᴍᴇᴀɴɪɴɢꜰᴜʟ ᴅɪꜱᴄᴜꜱꜱɪᴏɴꜱ ᴡɪᴛʜ ʏᴏᴜ ‣ \n @BROKENXNETWORK\n 𝐁𝐘 [➤𝗠𝗥 𝗫 𝗕𝗥𝗢𝗞𝗘𝗡](https://t.me/mrbrokn)"
+ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʟɪꜱᴛᴇɴ ᴀɴᴅ ᴇɴɢᴀɢᴇ ɪɴ ᴍᴇᴀɴɪɴɢꜰᴜʟ ᴅɪꜱᴄᴜꜱꜱɪᴏɴꜱ ᴡɪᴛʜ ʏᴏᴜ \n ‣  @BROKENXNETWORK 
 """
 
 
@@ -34,7 +34,7 @@ async def start(client, message):
     reply_markup = InlineKeyboardMarkup(buttons)
 
     await message.reply_video(
-        video="https://graph.org/file/6efbbb4d9e43c0572b4f4.jpg",
+        video="https://telegra.ph/file/8939defaf51113b3651de.mp4",
         caption=START_TEXT,
         reply_markup=reply_markup
     )
