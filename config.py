@@ -4,13 +4,13 @@
 import os
 from os import getenv
 # -------------------B-----------------------------
-API_ID = int(os.environ.get("API_ID", "")) #⚠ FILL
+API_ID = int(os.environ.get("API_ID", "20104370")) #⚠ FILL
 # ------------------------------------------------
-API_HASH = os.environ.get("API_HASH", "")         #FILL
+API_HASH = os.environ.get("API_HASH", "1ee68fa02aa69ec187bb2854d19bca9c")         #FILL
 # ----------------------R--------------------------
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "7258769781:dqSbdfoWaFtsgoo") #CHANGE
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "7258769781:AAFIGqv9FFRVjlZqxam-dqSbdfoWaFtsgoo") #CHANGE
 # ------------------------------------------------
-BOT_USERNAME = os.environ.get("BOT_USERNAME", "") #FILL
+BOT_USERNAME = os.environ.get("BOT_USERNAME", "EQURO_BOT") #FILL
 # -----------------------O-------------------------
 OWNER_ID = int(os.environ.get("OWNER_ID", "1841914911"))   #OWNER OR SUDO
 # ------------------------------------------------
