@@ -15,6 +15,7 @@ pydub
 wget
 ffmpeg-python==0.2.0
 ffmpeg
+avconv
 beautifulsoup4
 SafoneAPI
 pillow
