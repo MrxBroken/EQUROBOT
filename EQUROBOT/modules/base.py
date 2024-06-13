@@ -162,9 +162,7 @@ def check_payment_gateways(_, message):
             result_message += f"----------------------------\n"
         result_message += f"𝐁𝐨𝐭 𝐛𝐲 - @mrbrokn 😈\n"
         result_message += f"---------------------------\n"
-        result_message += f"𝗠𝗔𝗗𝗘 𝗕𝗬 𝗠𝗥 𝗫 𝗕𝗥𝗢𝗞𝗘𝗡\n"
         result_message += f"--------------------------------------------------------------\n"
-
         message.reply(result_message)
 
     except requests.exceptions.RequestException as e:
