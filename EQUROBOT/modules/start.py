@@ -7,7 +7,7 @@ from EQUROBOT import app
 
 
 START_TEXT = """
-ʜɪ , {fullname}
+ʜɪ , {}
 
 ɪ ᴀᴍ , [☾𝗘𝗾𝘂𝗿𝗼𝗕𝗼𝘁☽](http://t.me/EQURO_BOT) 
 ʏᴏᴜʀ ᴀɪ ᴄᴏᴍᴘᴀɴɪᴏɴ. 
@@ -26,8 +26,8 @@ async def start(client, message):
             InlineKeyboardButton("⦿𝐀𝐃𝐃 𝐌𝐄⦿", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
         ],
         [
-            InlineKeyboardButton("⦿𝐆𝐑𝐎𝐔𝐏⦿", url=f"https://t.me/brokenxnetwork"),
-            InlineKeyboardButton("⦿𝐎𝐖𝐍𝐄𝐑⦿", user_id=OWNER_ID)
+            InlineKeyboardButton("🔐𝐆𝐑𝐎𝐔𝐏❤️‍🔥", url=f"https://t.me/+aoOVBUmAwW9iY2U9"),
+            InlineKeyboardButton("😈𝐎𝐖𝐍𝐄𝐑🥀", user_id=OWNER_ID)
         ]
     ]
 
